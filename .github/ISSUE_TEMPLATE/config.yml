@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and open-ended ideas
+    url: https://github.com/freecode-sh/freecode/discussions
+    about: Ask the community or discuss an idea before turning it into a feature request.
+  - name: Security vulnerability
+    url: https://github.com/freecode-sh/freecode/security/advisories/new
+    about: Report suspected vulnerabilities privately. Do not open a public issue.

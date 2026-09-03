@@ -1,0 +1,58 @@
+name: Bug report
+description: Tell us about a reproducible problem with Free Code.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Free Code. Please remove secrets and private source code from anything you share.
+  - type: input
+    id: version
+    attributes:
+      label: Free Code version
+      description: Run `freecode --version` and paste the result.
+      placeholder: freecode-sh 0.1.0-alpha.x
+    validations:
+      required: true
+  - type: dropdown
+    id: operating-system
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Explain what you expected and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Give us the smallest reliable sequence that triggers the problem.
+      placeholder: |
+        1. Run ...
+        2. Choose ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add sanitized logs, screenshots, or other useful context.
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed passwords, API keys, personal data, and private source code from this report.
+          required: true
+

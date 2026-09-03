@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a concrete improvement to Free Code.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the situation and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like Free Code to do?
+      description: A simple example is often more useful than a detailed specification.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What have you tried instead?
+      description: Share any workarounds or alternatives you considered.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add mockups, examples, or links that help explain the idea.
+

@@ -1,4 +1,4 @@
-<p align="center"><img src="https://freecode.sh/icon.svg" width="128" alt="freecode"></p>
+<p align="center"><img src="https://github.com/freecode-sh.png" width="128" alt="freecode"></p>
 
 # freecode
 

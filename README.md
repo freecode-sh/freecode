@@ -1,8 +1,10 @@
-# Free Code
+<p align="center"><img src="https://freecode.sh/icon.svg" width="128" alt="freecode"></p>
 
-Free Code is a free coding agent for your terminal. It is designed to help beginner and intermediate programmers build, understand, and improve software.
+# freecode
 
-> Free Code is currently in alpha. You may encounter rough edges, and your feedback is especially useful right now.
+freecode is a free coding agent for your terminal. It is designed to help beginner and intermediate programmers build, understand, and improve software.
+
+> freecode is currently in alpha. You may encounter rough edges, and your feedback is especially useful right now.
 
 ## Install
 
@@ -25,7 +27,7 @@ Please search existing issues and discussions before starting a new one.
 
 ## About this repository
 
-This is Free Code's public community repository. It hosts public issues, discussions, product information, and community documentation.
+This is freecode's public community repository. It hosts public issues, discussions, product information, and community documentation.
 
 The product source is currently developed in a private repository and is not mirrored here. Pull requests to improve the public documentation and community templates are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
